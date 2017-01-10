@@ -35,6 +35,12 @@
         "template engine",
         "server-side rendering"
     ],
+    "homepage": "https://github.com/joedotjs/jsx-express-engine",
+    "bugs": "https://github.com/joedotjs/jsx-express-engine/issues",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/joedotjs/jsx-express-engine.git"
+    },
     "author": "Joe Alves <joseph.michael.alves.@gmail.com> (https://github.com/joedotjs)",
     "license": "MIT"
 }
