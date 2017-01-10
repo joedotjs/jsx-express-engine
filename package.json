@@ -1,6 +1,6 @@
 {
     "name": "jsx-express-engine",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Express engine creator for the basic use of JSX for templating",
     "main": "index.js",
     "engines": {
@@ -12,7 +12,7 @@
         "example": "npm run build && node example/",
         "test": "npm run build && npm run build-test && mocha ./tests/built.js",
         "lint": "eslint src/index.js",
-        "postinstall": "npm run build"
+        "prepublish": "npm run build"
     },
     "dependencies": {
         "react-jsx": "^1.0.0"
